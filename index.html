@@ -8,7 +8,86 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-    <header class="row">
+    <div class="off-canvas-wrap" data-offcanvas>
+        <div class="inner-wrap">
+            <nav class="tab-bar hide-for-medium-up">
+                <section class="left-small">
+                    <a class="left-off-canvas-toggle menu-icon"><span></span></a>
+                </section>
+            </nav>
+            <aside class="left-off-canvas-menu">
+                <ul class="off-canvas-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a>
+                        <ul>
+                            <li><a href="#">Meet Our Staff</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Graduates</a></li>
+                            <li><a href="#">Locations</a></li>
+                            <li><a href="#">Video Gallery</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Flight Training</a></li>
+                        <ul>
+                            <li><a href="#">Professional Pilot Program</a></li>
+                            <li><a href="#">International Pilot Program</a></li>
+                            <li><a href="#">Individual Pilot Programs</a></li>
+                        </ul>
+                    <li><a href="#">Get Hired</a></li>
+                    <li><a href="#">Admission</a></li>
+                    <li><a href="#">Services</a></li>
+                        <ul>
+                            <li><a href="#">Student Housing</a></li>
+                            <li><a href="#">FAA Testing</a></li>
+                            <li><a href="#">College Degree Programs</a></li>
+                            <li><a href="#">Veteran Benefits</a></li>
+                        </ul>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </aside>
+            <a class="exit-off-canvas"></a>
+
+            <!-- top bar code -->
+            <nav class="top-bar show-for-medium-up" data-topbar>
+                <ul class="title-area">
+                    <li class="name"></li>
+                    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+                </ul>
+                <section class="top-bar-section">
+                    <ul>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="has-dropdown"><a href="#">About Us</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Meet Our Staff</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Graduates</a></li>
+                                <li><a href="#">Locations</a></li>
+                                <li><a href="#">Video Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">News</a></li>
+                        <li class="has-dropdown"><a href="#">Flight Training</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Professional Pilot Program</a></li>
+                                <li><a href="#">International Pilot Program</a></li>
+                                <li><a href="#">Individual Pilot Programs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Get Hired</a></li>
+                        <li><a href="#">Admission</a></li>
+                        <li class="has-dropdown"><a href="#">Services</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Student Housing</a></li>
+                                <li><a href="#">FAA Testing</a></li>
+                                <li><a href="#">College Degree Programs</a></li>
+                                <li><a href="#">Veteran Benefits</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </section>
+            </nav>
         <div class="small-12">    
             <h1>
                 <a href="index.html">
@@ -16,9 +95,20 @@
                 </a>
             </h1>
         </div>
-    </header>
+        <div class="row">
+            <div class="small-10 small-centered text-center columns">
+                <a href="#" class="button">Domestic</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-10 small-centered text-center columns">
+                <a href="#" class="button">International</a>
+            </div>
+        </div>
 
-
+        </div> <!-- End inner-canvas wrap -->
+    </div> <!-- End off-canvas wrap -->
+      
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
