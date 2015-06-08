@@ -13,6 +13,12 @@
 }
 
 /* Custom CSS *****************************************************************************/
+html, body { 
+    height: 100%; 
+}
+.vh {
+    height: 100vh;
+}
 .tab-bar {
     position: absolute;
     width: 100%;
@@ -21,8 +27,11 @@ header h1 {
     margin: rem-calc(10) 0 rem-calc(10);   
 }
 #homepage-hero {
+    position: relative;
     background: url(/img/PlaneCropped.jpg) center no-repeat;
-    height: 500px;
+    height: 100%;
+    min-height: 500px;
+    display: block;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -31,9 +40,6 @@ header h1 {
         font-size: rem-calc(60);
         line-height: 4rem;
         margin-top: rem-calc(10);
-        @media(max-width: 359px) {
-            font-size: rem-calc(40);   
-        }
     }
     p {
         color: white;   
@@ -43,24 +49,24 @@ header h1 {
     }
 } //#homepage-hero
 #cta-button-wrapper {
-    margin-top: rem-calc(90);
-    @media(max-width: 359px) {
-        margin-top: rem-calc(50);   
-    }
-    .row {
-        margin-top: rem-calc(20);   
-    }
-    a {
-        @media(max-width: 359px) {
-            font-size: rem-calc(13);   
-        }    
+    margin-top: rem-calc(30);   
+    position: absolute; 
+    width: 100%;
+    bottom: 40%;
+    @media (min-width: 400px){
+        bottom: 50%;   
     }
 }
 #find-out-more {
-    margin-top: rem-calc(40);   
-}
-#individual-programs  {
-    h2 {
-        color: $primary-color;
+    position: absolute; 
+    bottom: 25%;
+    @media (min-width: 400px){
+        bottom: 30%;   
+    }
+    @media (min-width: 450px){
+        bottom: 33%;   
+    }
+    @media #{$medium-up} {
+        bottom: 40%;   
     }
 }
