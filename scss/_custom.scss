@@ -47,6 +47,12 @@
     -webkit-transform:rotate(180deg);
     transform:rotate(180deg);
 }
+.full-width {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+}
 
 /* Custom CSS *****************************************************************************/
 .tab-bar {
@@ -118,6 +124,18 @@ header h1 {
             width: 40px;   
         }
     }
+    li.tab-title {
+        margin: 0;
+        padding: 0;
+        width: 20%;
+        text-align: center;
+    }
+    li a {
+        font-size: rem-calc(12);  
+        padding: 10px 0;
+        margin: 0;
+    }
+    
 } //#individual-programs section
 #college-veterans {
     background: $primary-color;

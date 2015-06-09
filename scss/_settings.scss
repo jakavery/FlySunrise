@@ -336,10 +336,10 @@ $header-font-family: $air-americana;
 // $include-html-accordion-classes: $include-html-classes;
 
 // $accordion-navigation-padding: rem-calc(16);
-$accordion-navigation-bg-color: #4d4d4d;
-// $accordion-navigation-hover-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -5%);
+$accordion-navigation-bg-color: #B3B3B3;
+$accordion-navigation-hover-bg-color: darken($accordion-navigation-bg-color, 15%);
 // $accordion-navigation-active-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -3%);
-// $accordion-navigation-font-color: $jet;
+$accordion-navigation-font-color: $primary-color;
 // $accordion-navigation-font-size: rem-calc(16);
 // $accordion-navigation-font-family: $body-font-family;
 

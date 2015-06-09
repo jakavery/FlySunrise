@@ -1,3 +1,4 @@
 - Hero image on homepage doesn't really work; straight up breaks on landscape
 - Spinner chevrons on accordion
+- Make sure page doesn't jump when clicking tabs
 
