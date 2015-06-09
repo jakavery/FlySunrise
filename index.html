@@ -161,15 +161,25 @@
             <div class="small-12 columns">
                 <h3>Other Individual Programs</h3>
             </div>
-        </div>           
-            <ul class="tabs show-for-medium-up" data-tab role="tablist" data-options="deep_linking: true"><!-- Tabs -->
-                <li class="tab-title" role="presentational"><a href="#panel1" role="tab" tabindex="0" aria-selected="false">Instrument<br>Rating</a></li>
-                <li class="tab-title" role="presentational"><a href="#panel2" role="tab" tabindex="0" aria-selected="false">Commercial<br>Single-Engine</a></li>
-                <li class="tab-title" role="presentational"><a href="#panel3" role="tab" tabindex="0" aria-selected="false">Commercial<br>Multi-Engine</a></li>
-                <li class="tab-title" role="presentational"><a href="#panel4" role="tab" tabindex="0" aria-selected="false">Multi-Engine<br>Add-On</a></li>
-                <li class="tab-title" role="presentational"><a href="#panel4" role="tab" tabindex="0" aria-selected="false">Glass Cockpit<br>Transition</a></li>
-            </ul><!-- Tabs -->
-        <dl class="accordion" data-accordion role="tablist"><!-- Content -->
+        </div>   
+        <!-- Tabs -->        
+        <ul class="tabs show-for-medium-only" data-tab role="tablist" data-options="deep_linking: true">
+            <li class="tab-title" role="presentational"><a href="#panel1" role="tab" tabindex="0" aria-selected="false">Instrument<br>Rating</a></li>
+            <li class="tab-title" role="presentational"><a href="#panel2" role="tab" tabindex="0" aria-selected="false">Commercial<br>Single-Engine</a></li>
+            <li class="tab-title" role="presentational"><a href="#panel3" role="tab" tabindex="0" aria-selected="false">Commercial<br>Multi-Engine</a></li>
+            <li class="tab-title" role="presentational"><a href="#panel4" role="tab" tabindex="0" aria-selected="false">Multi-Engine<br>Add-On</a></li>
+            <li class="tab-title" role="presentational"><a href="#panel5" role="tab" tabindex="0" aria-selected="false">Glass Cockpit<br>Transition</a></li>
+        </ul><!-- Tabs -->
+        <!-- List -->
+        <div class="row">
+        <ul class="large-5 show-for-large-up text-center columns">
+            <a href="#panel1"><li>Instrument Rating</li></a>
+            <a href="#panel2"><li>Commercial Single-Engine</li></a>
+            <a href="#panel3"><li>Commercial Multi-Engine</li></a>
+            <a href="#panel4"><li>Multi-Engine Add-On</li></a>
+            <a href="#panel5"><li>Glass Cockpit Transition</li></a>
+        </ul><!-- List -->
+        <dl class="accordion small-12 large-5 columns" data-accordion role="tablist"><!-- Content -->
             <dd class="accordion-navigation">
                 <a href="#panel1" class="show-for-small-only" role="tab" id="panel1-heading" aria-controls="panel1">Instrument Rating<img class="right rotate" src="/img/chevron-down.svg"></a>
                 <section id="panel1" class="content" role="tabpanel" aria-labelledby="panel1-heading"><!-- Instrument Rating -->
@@ -193,6 +203,7 @@
                 </section><!-- Glass Cockpit Transition -->
             </dd>
         </dl><!-- Content -->
+        </div>
     </section><!-- Individual flight programs -->
     <!-- College and Veteran programs -->
     <section id="college-veterans">
