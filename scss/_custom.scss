@@ -23,6 +23,18 @@
         background: $primary-color;
     }
 }
+.button-blue-white-border {
+    @include button(rem-calc(12), false, false, false, false);
+    border: 2px solid $white;
+    background: lighten($primary-color, 30%);
+    color: white;
+    width: 100%;
+    transition: all .2s ease-in-out;
+    &:hover {
+        color: white;
+        background: $primary-color;
+    }   
+}
 
 /* Custom CSS *****************************************************************************/
 .tab-bar {
@@ -83,6 +95,35 @@ header h1 {
         color: $primary-color;
     }
     .accordion-navigation a {
-        border: 1px solid black;  
+        border: 1px solid black;
+        &:first-of-type {
+            border-top: 2px solid black;   
+        }
+        &:last-of-type {
+            border-bottom: 2px solid black;   
+        }
     }
-}
+} //#individual-programs section
+#college-veterans {
+    background: $primary-color;
+    h2, p {
+        color: white;
+    }   
+    h2 {
+        border-bottom: 1px solid white;   
+    }
+} //#college-veterans section
+#why-sunrise {
+   h2 {
+        color: $primary-color;  
+   }
+} //#why-sunrise section
+#cta-section {
+    background: $primary-color;
+    h2, p {
+        color: white;   
+    }
+    p {
+        font-size: rem-calc(12);   
+    }
+} //#cta-section
