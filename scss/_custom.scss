@@ -82,4 +82,7 @@ header h1 {
         font-family: $body-font-family;
         color: $primary-color;
     }
+    .accordion-navigation a {
+        border: 1px solid black;  
+    }
 }
