@@ -121,7 +121,7 @@ header h1 {
             border-top: 2px solid black;   
         }
         &:last-of-type {
-            border-bottom: 2px solid black;   
+            border-bottom: 2px solid black;  
         }
         img {
             width: 40px;   
@@ -152,7 +152,7 @@ header h1 {
         }
     }
     section {
-        background: red;   
+        background: red; 
     }
     
 } //#individual-programs section
@@ -162,13 +162,18 @@ header h1 {
         color: white;
     }   
     h2 {
-        border-bottom: 1px solid white;   
+        border-bottom: 1px solid white; 
     }
 } //#college-veterans section
 #why-sunrise {
-   h2 {
+    h2 {
         color: $primary-color;  
    }
+    @media #{$large-up} {
+        p {
+            margin-bottom: .5rem; 
+        }   
+    }
 } //#why-sunrise section
 #cta-section {
     background: $primary-color;
@@ -176,6 +181,10 @@ header h1 {
         color: white;   
     }
     p {
-        font-size: rem-calc(12);   
+        font-size: rem-calc(12); 
+        
     }
 } //#cta-section
+h3 {
+    font-family: $air-americana;   
+}

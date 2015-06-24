@@ -11,10 +11,9 @@ $(document).foundation('accordion', {
 });
 
 // Equalized accordion
-$('#individual-programs-list a').click(function() {
+/*$('#individual-programs-list a').click(function() {
     Foundation.libs.equalizer.reflow();
-});
-
+});*/
 
 // Rotate chevrons on accordion
 // Needs to be based on active state of panels
