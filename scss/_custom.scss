@@ -138,19 +138,6 @@ header h1 {
         padding: 10px 0;
         margin: 0;
     }
-    ul.show-for-large-up {
-        list-style: none;
-        background: #B3B3B3;
-        border: 1px solid black;
-        padding: 0;
-        a li {
-            padding: 10px 0;  
-            font-size: rem-calc(18);
-        }
-        a:not(:first-of-type) li {
-            border-top: 1px solid black;
-        }
-    }
     section {
         background: red; 
     }

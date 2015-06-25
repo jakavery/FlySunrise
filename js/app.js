@@ -10,6 +10,17 @@ $(document).foundation('accordion', {
     }
 });
 
+// Switch to vertical tabs for large screen sizes
+switchTabs();
+$(window).resize(switchTabs);
+function switchTabs() {
+    if ($(window).width() > 1024) {
+        $('#individual-programs ul.tabs').addClass('vertical');
+    }
+    else {
+        $('#individual-programs ul.tabs').removeClass('vertical');
+    }
+}
 // Equalized accordion
 /*$('#individual-programs-list a').click(function() {
     Foundation.libs.equalizer.reflow();
